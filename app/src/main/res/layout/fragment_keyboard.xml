@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.Fragment_keyboard">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonClear"
+                style="@style/style_of_button"
+                android:text="С"
+                android:textColor="#3729D8"/>
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonBack"
+                style="@style/style_of_button"
+                android:text="⇦|"
+                android:textColor="#3729D8"
+                android:textSize="32sp" />
+
+            <Button
+                style="@style/style_of_button"
+                android:text="%"
+                android:textColor="#3729D8"
+                android:clickable="false"/>
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonDivision"
+                style="@style/style_of_button"
+                android:text="÷"
+                android:textColor="#3729D8" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/fragment_keyboard_button7"
+                style="@style/style_of_button"
+                android:text="7"/>
+
+            <Button
+                android:id="@+id/fragment_keyboard_button8"
+                style="@style/style_of_button"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_button9"
+                style="@style/style_of_button"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonMultiplication"
+                style="@style/style_of_button"
+                android:text="*"
+                android:textColor="#3729D8" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/fragment_keyboard_button4"
+                style="@style/style_of_button"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_button5"
+                style="@style/style_of_button"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_button6"
+                style="@style/style_of_button"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonSubtraction"
+                style="@style/style_of_button"
+                android:text="-"
+                android:textColor="#3729D8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/fragment_keyboard_button1"
+                style="@style/style_of_button"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_button2"
+                style="@style/style_of_button"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_button3"
+                style="@style/style_of_button"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonAddition"
+                style="@style/style_of_button"
+                android:text="+"
+                android:textColor="#3729D8" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonSave"
+                style="@style/style_of_button"
+                android:clickable="false"
+                android:textSize="20sp"
+                android:textColor="#3729D8" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_button0"
+                style="@style/style_of_button"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonComma"
+                style="@style/style_of_button"
+                android:text="," />
+
+
+            <Button
+                android:id="@+id/fragment_keyboard_buttonEquals"
+                style="@style/style_of_button"
+                android:background="@drawable/drawable_for_equals"
+                android:text="="
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
